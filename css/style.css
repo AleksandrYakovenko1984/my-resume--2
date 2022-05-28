@@ -1,8 +1,19 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+    line-height: 1.7;
   background-color: #e5e5e5;
   margin: 0 0 0 0;
   padding: 0;
+
+}
+a {
+  color: blue;
+}
+img {
+  display: block;
+  /* max-width: 100%; */
+
 }
 
 .main-container {
@@ -17,36 +28,47 @@ body {
 .main-content-section {
   display: flex;
   flex-direction: column;
-  padding: 121px 0 88px 88px;
-  background-color: beige;
+  padding: 88px 0 88px 88px;
+  background-color: #fff;
+  box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .about-me-section {
   width: 400px;
   height: 230px;
-  margin-bottom: 40px;
+  margin-bottom: 12px;
 }
 
 .about-me-profession {
   font-size: 14px;
   font-weight: 700;
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .name {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 
 .my-projects-section {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+  
 }
 
 .project-list {
+  color: #000;
+}
+.accent{
   color: orangered;
 }
-
+.proj-el{
+  color: #000;
+}
+.period{
+  color: #A8A8A8;
+  line-height:1.15;
+}
 .my-work-experience-section {}
 
 .my-education-section {}
@@ -56,6 +78,7 @@ body {
   background-color: #1e2939;
   width: 370px;
   padding: 40px 0px;
+  
 }
 
 .contacts-section {
